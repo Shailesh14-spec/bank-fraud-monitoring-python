@@ -1,0 +1,42 @@
+{
+  "source_rows": 284807,
+  "unique_event_rows": 283726,
+  "duplicates_removed": 1081,
+  "purged_gap_rows": 15671,
+  "split_rows": {
+    "train": 138181,
+    "calibration": 10237,
+    "validation": 27439,
+    "test": 92198
+  },
+  "split_frauds": {
+    "train": 259,
+    "calibration": 60,
+    "validation": 17,
+    "test": 114
+  },
+  "selected_model": "gradient_boosting",
+  "test": {
+    "roc_auc": 0.9741975671335935,
+    "average_precision": 0.7816145318643314,
+    "brier": 0.00043331772188813457,
+    "prevalence": 0.0012364693377296687
+  },
+  "test_average_precision_hour_block_95_ci": [
+    0.702608672679605,
+    0.8366747263298157
+  ],
+  "queue_10_per_hour": {
+    "reviews": 120,
+    "flagged_fraud": 78,
+    "total_fraud": 114,
+    "precision": 0.65,
+    "recall": 0.6842105263157895,
+    "fraud_amount_capture_share": 0.6100468935462879
+  },
+  "validation_99_5pct_threshold": 0.019471989076259785,
+  "test_threshold_review_share": 0.005455649797175644,
+  "test_threshold_recall": 0.8245614035087719,
+  "score_psi_train_test": 0.15398863151976402,
+  "raw_sha256": "76274b691b16a6c49d3f159c883398e03ccd6d1ee12d9d8ee38f4b4b98551a89"
+}

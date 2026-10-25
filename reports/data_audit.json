@@ -1,0 +1,55 @@
+{
+  "missing_cells": 0,
+  "conflicting_event_labels": 0,
+  "model_features": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6",
+    "V7",
+    "V8",
+    "V9",
+    "V10",
+    "V11",
+    "V12",
+    "V13",
+    "V14",
+    "V15",
+    "V16",
+    "V17",
+    "V18",
+    "V19",
+    "V20",
+    "V21",
+    "V22",
+    "V23",
+    "V24",
+    "V25",
+    "V26",
+    "V27",
+    "V28",
+    "LogAmount"
+  ],
+  "time_used_only_for_splitting_and_queue": true,
+  "gap_seconds": 3600,
+  "window_bounds": {
+    "train": [
+      0.0,
+      82798.0
+    ],
+    "calibration": [
+      86400.0,
+      104398.0
+    ],
+    "validation": [
+      108000.0,
+      125999.0
+    ],
+    "test": [
+      129600.0,
+      172792.0
+    ]
+  }
+}
